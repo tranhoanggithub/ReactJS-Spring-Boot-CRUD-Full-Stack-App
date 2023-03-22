@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-backend.iml" filepath="$PROJECT_DIR$/.idea/springboot-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReactJS-Spring-Boot-CRUD-Full-Stack-App.iml" filepath="$PROJECT_DIR$/.idea/ReactJS-Spring-Boot-CRUD-Full-Stack-App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-backend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-backend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springboot-backend.test.iml" filepath="$PROJECT_DIR$/.idea/modules/springboot-backend.test.iml" />
     </modules>
   </component>
 </project>
