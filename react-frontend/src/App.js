@@ -16,8 +16,8 @@ function App() {
           <header className="container">
             <Switch>
               <Route path="/" exact component={ListEmployeeComponent}></Route>
-              <Router path="/employees" component={ListEmployeeComponent}></Router>
-              <Router path="/add-employee" component={CreateEmployeeComponent}></Router>
+              <Route path="/employees" component={ListEmployeeComponent}></Route>
+              <Route path="/add-employees" component={CreateEmployeeComponent}></Route>
               <ListEmployeeComponent />
             </Switch>
           </header>
