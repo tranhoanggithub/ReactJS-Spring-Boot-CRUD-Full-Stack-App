@@ -17,7 +17,7 @@ export default class ListEmployeeComponent extends Component {
     }
 
     addEmployee() {
-        this.props.history.push('/add-employee');
+        this.props.history.push('/add-employees');
     }
     render() {
         return (
