@@ -35,9 +35,9 @@ export default class UpdateEmployeeComponent extends Component {
         let employee = { firstName: this.state.firstName, lastName: this.state.lastName, emailId: this.state.emailId };
         console.log('employ=>' + JSON.stringify(employee));
 
-        // EmployeeService.updateEmployee(employee, this.state.id).then((res) => {
-        //     this.props.history.push('/employees')
-        // });
+        EmployeeService.updateEmployee(employee, this.state.id).then((res) => {
+            this.props.history.push('/employees');
+        });
 
     }
     changeFirstNameHandler(event) {
