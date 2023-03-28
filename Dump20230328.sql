@@ -28,7 +28,7 @@ CREATE TABLE `employees` (
   `first_name` varchar(255) DEFAULT NULL,
   `last_name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `employees` (
 
 LOCK TABLES `employees` WRITE;
 /*!40000 ALTER TABLE `employees` DISABLE KEYS */;
-INSERT INTO `employees` VALUES (1,'tranhoang@gmail.com','tran','hoang'),(2,'vannam@gmail.com','van','nam');
+INSERT INTO `employees` VALUES (3,'tom@gmail.com','tomsdsd','cruise'),(4,'kimtam@gmail.com','kim','tam'),(5,'tranvannam@gmail.com','van nam','tran'),(7,'ngoquyen@gmail.com update','ngo update','quyen update'),(8,'tondan@gmail.com update','ton update 1','dan update'),(9,'camha@gmail.com update','cam update','ha update'),(10,'camha@gmail.com','cam','ha'),(16,'hotrung@gmail.com','ho ','trung'),(31,'chương@gmail.com update','chuong update','chuong update'),(33,'mailaddmoi@gmiail.com','first name add moi','last name add moi'),(35,'themmoiemail@gmail.com','themmoifirstname','themmoilastname');
 /*!40000 ALTER TABLE `employees` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-22 13:33:17
+-- Dump completed on 2023-03-28 14:38:00
